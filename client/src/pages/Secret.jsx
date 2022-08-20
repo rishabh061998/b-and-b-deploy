@@ -36,7 +36,8 @@ navigate("/register")
     return(
         <>
         <div className="private">
-            <h1>Super secret page</h1>
+            <h1>Admin page</h1>
+            <h2>First click on Logout button</h2>
             <button onClick={logOut}>Logout</button>
       
         </div>
